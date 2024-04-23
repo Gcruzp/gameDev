@@ -41,9 +41,9 @@ void draw() {
   fill(0);
   
   if (!dictionarySelected) {
-  text(display, 10, 200); // Ajuste aqui a posição vertical
-  text(display2, 10, 230); // Ajuste aqui a posição vertical
-  text(typing, 50, 260); // Ajuste aqui a posição vertical
+  text(display, 10, 200); 
+  text(display2, 10, 230); 
+  text(typing, 50, 260); 
 } else {
   if (perder == 1) {
     background(color(255, 0, 0)); 
@@ -82,7 +82,7 @@ void draw() {
     }
 
     // Exibe as outras informações na tela
-    //text(display4, ident, 400); // Exibe display4
+    //text(display4, ident, 400);
     text(display2, ident, 430);
     text(typing, ident, 490);
     text(wrongAnswers, ident, 550);
