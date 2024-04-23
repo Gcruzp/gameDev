@@ -99,12 +99,12 @@ void mousePressed() {
         vsComputerButton = true;
         gameStarted = true;
         currentPlayer = 1;
-        resetBoard(); // Inicializa o tabuleiro
+        resetBoard(); 
       } else if (mouseY > 200 && mouseY < 250) {
         vsPlayerButton = true;
         gameStarted = true;
         currentPlayer = 1;
-        resetBoard(); // Inicializa o tabuleiro
+        resetBoard(); 
       }
     }
   } else {
